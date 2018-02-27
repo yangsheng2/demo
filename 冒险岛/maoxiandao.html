@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #div1{
+            width: 1350px;
+            height: 650px;
+            background-image: url("冒险岛/bg.jpg");
+            background-size: 1350px 650px;
+            position: relative;
+            overflow: hidden;
+        }
+        img{
+            position: absolute;
+            z-index: 89;
+        }
+        #div2{
+            left: 1100px;
+            top:20px;
+            position: absolute;
+            z-index: 100;
+            width: 139px;
+            height: 50px;
+        }
+        #div2 img{
+            position: relative;
+            z-index: 100;
+        }
+        #p1{
+            width: 50px;
+            font-size: 14px;
+            height: 20px;
+            z-index: 101;
+            position: absolute;
+            margin-top: -28px;
+            left: 50px;
+        }
+        #img2{
+            position: relative;
+            left: -1100px;
+            top:-100px;
+            z-index:80;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div id="div1">
+    <div id="div2"><img src="冒险岛/ui/RunnerGame.gif" width="139px" height="50px">
+
+    <p id="p1"></p>
+        <img src="冒险岛/skill.gif" alt="" id="img2"></div>
+</div>
+<script type="text/javascript" src="js/maoxiandao.js"></script>
+</body>
+</html>
